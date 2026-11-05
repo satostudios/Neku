@@ -1,0 +1,12 @@
+[project]
+name = "neku"
+version = "0.8.0"
+description = "Neku: agente de IA local para Windows, com rede neural pulsada, sobre o motor Pestinha."
+requires-python = ">=3.11"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE", "NOTICE.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests_pestinha"]
+python_files = ["test_*.py"]
+pythonpath = ["src"]

@@ -1,0 +1,18 @@
+# Ambiente
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Dados de quem usa o Neku: nada disto vai para o repositório.
+config/*
+!config/.gitkeep
+data/*
+!data/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Baixados na instalação
+models/*
+!models/.gitkeep
+runtime/

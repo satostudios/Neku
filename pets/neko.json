@@ -1,0 +1,12 @@
+{
+  "nome": "Neku",
+  "seed": 11,
+  "temperamento": {
+    "CURIOUS": 1.2,
+    "FOCUS": 1.1,
+    "DISMISS->FRUSTRATION": 0.8,
+    "IMPACT->FRUSTRATION": 0.8
+  },
+  "brincadeira": {"bola": 0.6, "arremesso": 0.2, "postit": 0.4},
+  "reacao_notebook": "triste"
+}
